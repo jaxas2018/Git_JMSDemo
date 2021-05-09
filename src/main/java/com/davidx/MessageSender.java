@@ -36,6 +36,7 @@ public class MessageSender {
 		producer.send(message);
 		
 		System.out.println("Message "+message.getText()+", send successful to the queue!");
+		System.out.println("Changed a little");
 		
 		connection.close();
 	}
